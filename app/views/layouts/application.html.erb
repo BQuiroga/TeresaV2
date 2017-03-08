@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Teresa</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<% if logged_in? %>
+  <%= render partial: 'layouts/top_navbar' %>
+<% end %>
+<%= yield %>
+</body>
+</html>
+
+<script>
+    var people = new Bloodhound({
+        datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+        queryTokenizer: Bloodhound.tokenizers.whitespace,
+
+        remote: {
+            url: '../autocomplete/%QUERY',
+            wildcard: '%QUERY'
+
+        }
+    });
+
+    $('.typeahead').typeahead(null, {
+        name: 'people',
+        display: 'name',
+        source: people.ttAdapter()
+    }).on('typeahead:selected', function () {
+        console.log('selecionado');
+//        alert('franz');
+        document.getElementById("formulario").submit();
+    });
+//    $('.content').mCustomScrollbar({
+//      theme:"dark"
+//    });
+//    $("body").mCustomScrollbar({
+//      theme:"dark"
+//    });
+
+</script>
