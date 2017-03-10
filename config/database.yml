@@ -21,13 +21,14 @@ default: &default
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
   host: localhost
-  username: franzbel
-  password: misecreto
+  database: teresa_db
+  username: teresa_admin
+  password: admin123
+
 
 development:
   <<: *default
-  database: teresa_development
-
+  #database: teresa_development
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
@@ -58,9 +59,9 @@ development:
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
-test:
-  <<: *default
-  database: teresa_test
+#test:
+#  <<: *default
+#  database: teresa_test
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -81,8 +82,8 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-production:
-  <<: *default
-  database: teresa_production
-  username: franzbel
-  password: <%= ENV['TERESA_DATABASE_PASSWORD'] %>
+#production:
+ # <<: *default
+  #database: teresa_production
+  #username: franzbel
+  #password: <%= ENV['TERESA_DATABASE_PASSWORD'] %>

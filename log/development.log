@@ -1,0 +1,1434 @@
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-08 18:01:18 -0400
+
+PG::ConnectionBad (FATAL:  password authentication failed for user "franzbel"
+FATAL:  password authentication failed for user "franzbel"
+):
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `connect'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (21.6ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (48.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-08 18:07:09 -0400
+
+PG::ConnectionBad (fe_sendauth: no password supplied
+):
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `connect'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.8ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (20.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (44.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-08 18:08:51 -0400
+
+PG::ConnectionBad (fe_sendauth: no password supplied
+):
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `connect'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.8ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (20.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (41.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-08 18:08:53 -0400
+
+PG::ConnectionBad (fe_sendauth: no password supplied
+):
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `connect'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (20.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (41.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-08 18:09:11 -0400
+
+ActiveRecord::NoDatabaseError (FATAL:  role "redes" does not exist
+):
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:665:in `rescue in connect'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `connect'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.8ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (20.7ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (45.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-08 18:09:28 -0400
+
+ActiveRecord::NoDatabaseError (FATAL:  role "redes" does not exist
+):
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:665:in `rescue in connect'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `connect'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (20.6ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (42.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-08 18:09:37 -0400
+
+PG::ConnectionBad (FATAL:  password authentication failed for user "franzbel"
+FATAL:  password authentication failed for user "franzbel"
+):
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `connect'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.8ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (20.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (44.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-08 18:12:39 -0400
+
+PG::ConnectionBad (FATAL:  password authentication failed for user "franzbel"
+FATAL:  password authentication failed for user "franzbel"
+):
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `connect'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.0ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (20.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (41.8ms)
+  [1m[36m (200.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (34.4ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20151120080839)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (76.3ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "email" character varying, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20151120080839"]]
+  [1m[36m (13.9ms)[0m  [1mCOMMIT[0m
+Migrating to AddPasswordDigestToUsers (20151120083329)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "users" ADD "password_digest" character varying[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20151120083329"]]
+  [1m[36m (4.9ms)[0m  [1mCOMMIT[0m
+Migrating to CreatePosts (20151120192948)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (54.9ms)[0m  [1mCREATE TABLE "posts" ("id" serial primary key, "body" text, "user_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (23.4ms)[0m  CREATE  INDEX  "index_posts_on_user_id" ON "posts"  ("user_id")
+  [1m[36m (34.9ms)[0m  [1mALTER TABLE "posts" ADD CONSTRAINT "fk_rails_5b5ddfd518"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20151120192948"]]
+  [1m[36m (12.4ms)[0m  [1mCOMMIT[0m
+Migrating to CreateRelationships (20151121060644)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (29.2ms)[0m  [1mCREATE TABLE "relationships" ("id" serial primary key, "idol_id" integer, "fan_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (33.5ms)[0m  CREATE  INDEX  "index_relationships_on_idol_id" ON "relationships"  ("idol_id")
+  [1m[36m (23.5ms)[0m  [1mCREATE  INDEX  "index_relationships_on_fan_id" ON "relationships"  ("fan_id")[0m
+  [1m[35m (31.8ms)[0m  CREATE UNIQUE INDEX  "index_relationships_on_idol_id_and_fan_id" ON "relationships"  ("idol_id", "fan_id")
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20151121060644"]]
+  [1m[35m (13.1ms)[0m  COMMIT
+Migrating to AddAttachmentAvatarToUsers (20151122012612)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "users" ADD "avatar_file_name" character varying
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "avatar_content_type" character varying[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "avatar_file_size" integer
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "avatar_updated_at" timestamp[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20151122012612"]]
+  [1m[36m (20.3ms)[0m  [1mCOMMIT[0m
+Migrating to AddAttachmentCoverToUsers (20151122034706)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" ADD "cover_file_name" character varying[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "cover_content_type" character varying
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "cover_file_size" integer[0m
+  [1m[35m (0.6ms)[0m  ALTER TABLE "users" ADD "cover_updated_at" timestamp
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20151122034706"]]
+  [1m[35m (19.8ms)[0m  COMMIT
+Migrating to CreatePictures (20151123215643)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (42.4ms)[0m  CREATE TABLE "pictures" ("id" serial primary key, "post_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (40.1ms)[0m  [1mCREATE  INDEX  "index_pictures_on_post_id" ON "pictures"  ("post_id")[0m
+  [1m[35m (1.2ms)[0m  ALTER TABLE "pictures" ADD CONSTRAINT "fk_rails_13793e98fd"
+FOREIGN KEY ("post_id")
+  REFERENCES "posts" ("id")
+
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20151123215643"]]
+  [1m[35m (10.6ms)[0m  COMMIT
+Migrating to AddAttachmentImageToPictures (20151123220549)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (43.2ms)[0m  ALTER TABLE "pictures" ADD "image_file_name" character varying
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "pictures" ADD "image_content_type" character varying[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "pictures" ADD "image_file_size" integer
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "pictures" ADD "image_updated_at" timestamp[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20151123220549"]]
+  [1m[36m (10.6ms)[0m  [1mCOMMIT[0m
+Migrating to CreateResumes (20160106020621)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (51.8ms)[0m  [1mCREATE TABLE "resumes" ("id" serial primary key, "name" character varying, "user_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (23.5ms)[0m  CREATE  INDEX  "index_resumes_on_user_id" ON "resumes"  ("user_id")
+  [1m[36m (1.1ms)[0m  [1mALTER TABLE "resumes" ADD CONSTRAINT "fk_rails_867611551d"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20160106020621"]]
+  [1m[36m (8.7ms)[0m  [1mCOMMIT[0m
+Migrating to CreatePhotos (20160106075232)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (36.0ms)[0m  [1mCREATE TABLE "photos" ("id" serial primary key, "resume_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (40.1ms)[0m  CREATE  INDEX  "index_photos_on_resume_id" ON "photos"  ("resume_id")
+  [1m[36m (11.9ms)[0m  [1mALTER TABLE "photos" ADD CONSTRAINT "fk_rails_25aff8d3f1"
+FOREIGN KEY ("resume_id")
+  REFERENCES "resumes" ("id")
+[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20160106075232"]]
+  [1m[36m (13.6ms)[0m  [1mCOMMIT[0m
+Migrating to AddAttachmentPhotoToPhotos (20160106075341)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (29.7ms)[0m  [1mALTER TABLE "photos" ADD "photo_file_name" character varying[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "photos" ADD "photo_content_type" character varying
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "photos" ADD "photo_file_size" integer[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "photos" ADD "photo_updated_at" timestamp
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20160106075341"]]
+  [1m[35m (7.3ms)[0m  COMMIT
+Migrating to CreateEmails (20160106143437)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (55.2ms)[0m  CREATE TABLE "emails" ("id" serial primary key, "email" character varying, "resume_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (15.1ms)[0m  [1mCREATE  INDEX  "index_emails_on_resume_id" ON "emails"  ("resume_id")[0m
+  [1m[35m (1.0ms)[0m  ALTER TABLE "emails" ADD CONSTRAINT "fk_rails_50382f9963"
+FOREIGN KEY ("resume_id")
+  REFERENCES "resumes" ("id")
+
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20160106143437"]]
+  [1m[35m (14.2ms)[0m  COMMIT
+Migrating to CreatePhones (20160108071019)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (39.6ms)[0m  CREATE TABLE "phones" ("id" serial primary key, "number" integer, "resume_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (31.5ms)[0m  [1mCREATE  INDEX  "index_phones_on_resume_id" ON "phones"  ("resume_id")[0m
+  [1m[35m (1.1ms)[0m  ALTER TABLE "phones" ADD CONSTRAINT "fk_rails_3d7e228bb5"
+FOREIGN KEY ("resume_id")
+  REFERENCES "resumes" ("id")
+
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20160108071019"]]
+  [1m[35m (12.9ms)[0m  COMMIT
+Migrating to CreateSites (20160108075425)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (65.6ms)[0m  CREATE TABLE "sites" ("id" serial primary key, "name" character varying, "resume_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (23.5ms)[0m  [1mCREATE  INDEX  "index_sites_on_resume_id" ON "sites"  ("resume_id")[0m
+  [1m[35m (1.1ms)[0m  ALTER TABLE "sites" ADD CONSTRAINT "fk_rails_db1fbcd4fd"
+FOREIGN KEY ("resume_id")
+  REFERENCES "resumes" ("id")
+
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20160108075425"]]
+  [1m[35m (11.7ms)[0m  COMMIT
+Migrating to CreateExperiences (20160108102450)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (64.3ms)[0m  CREATE TABLE "experiences" ("id" serial primary key, "start_date" date, "end_date" date, "job_title" character varying, "company_name" character varying, "job_description" text, "resume_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (26.0ms)[0m  [1mCREATE  INDEX  "index_experiences_on_resume_id" ON "experiences"  ("resume_id")[0m
+  [1m[35m (1.1ms)[0m  ALTER TABLE "experiences" ADD CONSTRAINT "fk_rails_b062765ade"
+FOREIGN KEY ("resume_id")
+  REFERENCES "resumes" ("id")
+
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20160108102450"]]
+  [1m[35m (10.7ms)[0m  COMMIT
+Migrating to CreateEducations (20160116171508)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (59.5ms)[0m  CREATE TABLE "educations" ("id" serial primary key, "start_date" date, "end_date" date, "degree_name" character varying, "school_name" character varying, "education_description" text, "resume_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (23.4ms)[0m  [1mCREATE  INDEX  "index_educations_on_resume_id" ON "educations"  ("resume_id")[0m
+  [1m[35m (1.1ms)[0m  ALTER TABLE "educations" ADD CONSTRAINT "fk_rails_d3d2f6ce11"
+FOREIGN KEY ("resume_id")
+  REFERENCES "resumes" ("id")
+
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20160116171508"]]
+  [1m[35m (8.7ms)[0m  COMMIT
+Migrating to CreateJobVacancies (20160118182629)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (71.9ms)[0m  CREATE TABLE "job_vacancies" ("id" serial primary key, "user_id" integer, "state" boolean, "education" character varying, "years_of_experience" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (23.5ms)[0m  [1mCREATE  INDEX  "index_job_vacancies_on_user_id" ON "job_vacancies"  ("user_id")[0m
+  [1m[35m (1.1ms)[0m  ALTER TABLE "job_vacancies" ADD CONSTRAINT "fk_rails_f231adf1d9"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20160118182629"]]
+  [1m[35m (14.2ms)[0m  COMMIT
+Migrating to CreateApplicants (20160118182835)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (30.9ms)[0m  CREATE TABLE "applicants" ("id" serial primary key, "job_vacancy_id" integer, "applicant_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (23.3ms)[0m  [1mCREATE  INDEX  "index_applicants_on_job_vacancy_id" ON "applicants"  ("job_vacancy_id")[0m
+  [1m[35m (1.2ms)[0m  ALTER TABLE "applicants" ADD CONSTRAINT "fk_rails_fb896d1f18"
+FOREIGN KEY ("job_vacancy_id")
+  REFERENCES "job_vacancies" ("id")
+
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20160118182835"]]
+  [1m[35m (13.1ms)[0m  COMMIT
+Migrating to CreateMailboxer (20160121000018)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (57.1ms)[0m  CREATE TABLE "mailboxer_conversations" ("id" serial primary key, "subject" character varying DEFAULT '', "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (58.0ms)[0m  [1mCREATE TABLE "mailboxer_receipts" ("id" serial primary key, "receiver_id" integer, "receiver_type" character varying, "notification_id" integer NOT NULL, "is_read" boolean DEFAULT 'f', "trashed" boolean DEFAULT 'f', "deleted" boolean DEFAULT 'f', "mailbox_type" character varying(25), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (49.5ms)[0m  CREATE TABLE "mailboxer_notifications" ("id" serial primary key, "type" character varying, "body" text, "subject" character varying DEFAULT '', "sender_id" integer, "sender_type" character varying, "conversation_id" integer, "draft" boolean DEFAULT 'f', "notification_code" character varying, "notified_object_id" integer, "notified_object_type" character varying, "attachment" character varying, "updated_at" timestamp NOT NULL, "created_at" timestamp NOT NULL, "global" boolean DEFAULT 'f', "expires" timestamp) 
+  [1m[36m (23.4ms)[0m  [1mCREATE  INDEX  "index_mailboxer_receipts_on_notification_id" ON "mailboxer_receipts"  ("notification_id")[0m
+  [1m[35m (23.5ms)[0m  CREATE  INDEX  "index_mailboxer_notifications_on_conversation_id" ON "mailboxer_notifications"  ("conversation_id")
+  [1m[36m (2.1ms)[0m  [1mALTER TABLE "mailboxer_receipts" ADD CONSTRAINT "receipts_on_notification_id"
+FOREIGN KEY ("notification_id")
+  REFERENCES "mailboxer_notifications" ("id")
+[0m
+  [1m[35m (1.0ms)[0m  ALTER TABLE "mailboxer_notifications" ADD CONSTRAINT "notifications_on_conversation_id"
+FOREIGN KEY ("conversation_id")
+  REFERENCES "mailboxer_conversations" ("id")
+
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20160121000018"]]
+  [1m[35m (7.8ms)[0m  COMMIT
+Migrating to AddConversationOptout (20160121000019)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (54.5ms)[0m  CREATE TABLE "mailboxer_conversation_opt_outs" ("id" serial primary key, "unsubscriber_id" integer, "unsubscriber_type" character varying, "conversation_id" integer) 
+  [1m[36m (1.7ms)[0m  [1mALTER TABLE "mailboxer_conversation_opt_outs" ADD CONSTRAINT "mb_opt_outs_on_conversations_id"
+FOREIGN KEY ("conversation_id")
+  REFERENCES "mailboxer_conversations" ("id")
+[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20160121000019"]]
+  [1m[36m (14.4ms)[0m  [1mCOMMIT[0m
+Migrating to AddMissingIndices (20160121000020)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (28.7ms)[0m  [1mCREATE  INDEX  "index_mailboxer_conversation_opt_outs_on_unsubscriber_id_type" ON "mailboxer_conversation_opt_outs"  ("unsubscriber_id", "unsubscriber_type")[0m
+  [1m[35m (23.5ms)[0m  CREATE  INDEX  "index_mailboxer_conversation_opt_outs_on_conversation_id" ON "mailboxer_conversation_opt_outs"  ("conversation_id")
+  [1m[36m (23.5ms)[0m  [1mCREATE  INDEX  "index_mailboxer_notifications_on_type" ON "mailboxer_notifications"  ("type")[0m
+  [1m[35m (23.5ms)[0m  CREATE  INDEX  "index_mailboxer_notifications_on_sender_id_and_sender_type" ON "mailboxer_notifications"  ("sender_id", "sender_type")
+  [1m[36m (23.7ms)[0m  [1mCREATE  INDEX  "index_mailboxer_notifications_on_notified_object_id_and_type" ON "mailboxer_notifications"  ("notified_object_id", "notified_object_type")[0m
+  [1m[35m (22.7ms)[0m  CREATE  INDEX  "index_mailboxer_receipts_on_receiver_id_and_receiver_type" ON "mailboxer_receipts"  ("receiver_id", "receiver_type")
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20160121000020"]]
+  [1m[35m (13.9ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (3.1ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'applicants'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (2.9ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'educations'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (2.9ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'emails'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (2.9ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'experiences'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (2.9ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'job_vacancies'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (2.9ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'mailboxer_conversation_opt_outs'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (2.8ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'mailboxer_conversations'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (2.8ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'mailboxer_notifications'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (2.9ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'mailboxer_receipts'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (3.9ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'phones'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (3.1ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'photos'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (3.0ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'pictures'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (2.9ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'posts'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (2.8ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'relationships'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (2.8ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'resumes'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (2.9ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'sites'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (2.8ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from service at /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from service at /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from service at /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from service at /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from service at /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-10 10:17:09 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#home as HTML
+  Rendered users/home.html.erb within layouts/application (29.3ms)
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 9570ms (Views: 9546.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/applicants-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/job_vacancies-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/mCustomScrollbar-b8f907de94cf33ffcba13973ff190418.css?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/conversations-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/custom-01e955526fa63f912a22d9549cfb2bed.css?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/messages-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/posts-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/publications-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/relationships-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/resumes-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/jquery-fbd3c47db8f7f0030f377a105ed8fc51.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/users-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/application-3aa568c4ba0fcbffa37f45256f95ca0f.css?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/searches-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/jquery_ujs-d2cf0f95fbe6472403171bca3c6ea320.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/bootstrap-ac843c1b314aed5b6de0dbdb51fb71fd.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/jquery.turbolinks-b3f41da933e7be7a4a4a2234750e25d6.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/lib/abstract-chosen-cebdd952962a5b26fafc957a19c1ed8b.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/lib/select-parser-5947b1b37cc43a76175bf24dd98c2d30.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/chosen.jquery-63805af9dffabd503fde60fb7af95b26.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/turbolinks-4031cb0a0613adc8fac596d20e01b074.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/messages-9f9f8f55a9c4e1b4fb461eea8360ff83.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/chosen-jquery-a9ee3be772d621557c08693522928162.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/typeahead.bundle-5002f503969df678b69cccf34ce4313d.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/mCustomScrollbar-35b2adf8986beb2157e24a9f9fcbbc3a.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/mCustomScrollbar.concat.min-046caf11fa81eb9e8acc178788787ea7.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/applicants-0bc27e2168727cafa1252f703137df60.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/conversations-0bc27e2168727cafa1252f703137df60.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/job_vacancies-0bc27e2168727cafa1252f703137df60.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/posts-0bc27e2168727cafa1252f703137df60.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/publications-0bc27e2168727cafa1252f703137df60.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/relationships-0bc27e2168727cafa1252f703137df60.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/resumes-0bc27e2168727cafa1252f703137df60.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/searches-0bc27e2168727cafa1252f703137df60.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/users-0bc27e2168727cafa1252f703137df60.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/application-07f6e5435b5a205bc11af686330e4a85.js?body=1" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+
+
+Started GET "/assets/ciudad-87344a7dbecec1626cc2232c4bc0a6d0.jpg" for 127.0.0.1 at 2017-03-10 10:17:19 -0400
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started POST "/sign_up" for 127.0.0.1 at 2017-03-10 10:47:56 -0400
+Processing by UsersController#sign_up as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BKuyJ1M9fQXiG0tyx1xQU0r5AJKTUQ6wu+I56w//QKxH+2uSxu6TZ3eHzAR87OSOJX1owRm7lmcxDbAx3yGXdw==", "user"=>{"name"=>"Brandon", "email"=>"Quiroga", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Registrarse"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Brandon"], ["email", "Quiroga"], ["password_digest", "$2a$10$7RxIihuOIJcJhI7LxuuUxuNnxrmQ8KR6suVJ6z/yd.QDIyl09Pr.S"], ["created_at", "2017-03-10 14:47:56.980956"], ["updated_at", "2017-03-10 14:47:56.980956"]]
+  [1m[36m (12.9ms)[0m  [1mCOMMIT[0m
+  [1m[33mUser Store (101.3ms)[0m  {"id":1,"exception":["Faraday::ConnectionFailed","Connection refused - connect(2) for \"localhost\" port 9200"]}
+Completed 500 Internal Server Error in 235ms (Searchkick: 101.3ms | ActiveRecord: 19.0ms)
+
+Faraday::ConnectionFailed (Connection refused - connect(2) for "localhost" port 9200):
+  app/controllers/users_controller.rb:9:in `sign_up'
+
+
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.9ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (33.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (23.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (50.8ms)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2017-03-10 10:50:13 -0400
+Processing by UsersController#profile as HTML
+  Parameters: {"name"=>"sign_up"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."name" = $1 LIMIT 1  [["name", "sign_up"]]
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.4ms)
+
+NoMethodError (undefined method `posts' for nil:NilClass):
+  app/controllers/users_controller.rb:35:in `profile'
+
+
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (20.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (41.6ms)
+
+
+Started POST "/sign_up" for 127.0.0.1 at 2017-03-10 10:50:24 -0400
+Processing by UsersController#sign_up as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BKuyJ1M9fQXiG0tyx1xQU0r5AJKTUQ6wu+I56w//QKxH+2uSxu6TZ3eHzAR87OSOJX1owRm7lmcxDbAx3yGXdw==", "user"=>{"name"=>"Brandon", "email"=>"Quiroga", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Registrarse"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Brandon"], ["email", "Quiroga"], ["password_digest", "$2a$10$IeU3tapynegY1TLg9ZXIKuP.OrbwX7AP2Z3fXxeSEOF.YnrubOjTG"], ["created_at", "2017-03-10 14:50:24.590335"], ["updated_at", "2017-03-10 14:50:24.590335"]]
+  [1m[36m (7.9ms)[0m  [1mCOMMIT[0m
+  [1m[33mUser Store (2.2ms)[0m  {"id":2,"exception":["Faraday::ConnectionFailed","Connection refused - connect(2) for \"localhost\" port 9200"]}
+Completed 500 Internal Server Error in 111ms (Searchkick: 2.2ms | ActiveRecord: 8.5ms)
+
+Faraday::ConnectionFailed (Connection refused - connect(2) for "localhost" port 9200):
+  app/controllers/users_controller.rb:9:in `sign_up'
+
+
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.0ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (31.6ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (20.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (41.6ms)
+
+
+Started POST "/sign_up" for 127.0.0.1 at 2017-03-10 11:07:17 -0400
+Processing by UsersController#sign_up as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BKuyJ1M9fQXiG0tyx1xQU0r5AJKTUQ6wu+I56w//QKxH+2uSxu6TZ3eHzAR87OSOJX1owRm7lmcxDbAx3yGXdw==", "user"=>{"name"=>"Brandon", "email"=>"Quiroga", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Registrarse"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 646ms (ActiveRecord: 0.4ms)
+
+ActionView::MissingTemplate (Missing template users/sign_up, application/sign_up with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/redes/Documentos/pasantia/app/views"
+  * "/home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/mailboxer-0.13.0/app/views"
+):
+  actionview (4.2.4) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.4) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.4) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.4) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.4) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.4) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.4) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.4) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.4) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.4) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.4) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.4) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.4) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.4) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.4) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.4) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.4) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.4) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.4) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  searchkick (1.1.2) lib/searchkick/logging.rb:113:in `cleanup_view_runtime'
+  activerecord (4.2.4) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.4) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.4) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.4) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.4) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.4) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.4) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.4) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.4) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.4) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.4) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  searchkick (1.1.2) lib/searchkick/logging.rb:108:in `process_action'
+  activerecord (4.2.4) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.4) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.4) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.4) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.4) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.4) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.4) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (29.0ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (33.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (55.3ms)
+
+
+Started POST "/sign_up" for 127.0.0.1 at 2017-03-10 11:07:28 -0400
+Processing by UsersController#sign_up as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BKuyJ1M9fQXiG0tyx1xQU0r5AJKTUQ6wu+I56w//QKxH+2uSxu6TZ3eHzAR87OSOJX1owRm7lmcxDbAx3yGXdw==", "user"=>{"name"=>"Brandon", "email"=>"Quiroga", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Registrarse"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Brandon"], ["email", "Quiroga"], ["password_digest", "$2a$10$3TD5hgHwt8mClvEXP2XO7.sne7Lh1tOY3/d6yvqTXbxbSEy/E1WCG"], ["created_at", "2017-03-10 15:07:28.534859"], ["updated_at", "2017-03-10 15:07:28.534859"]]
+  [1m[35m (10.7ms)[0m  COMMIT
+  [1m[33mUser Store (2.8ms)[0m  {"id":3,"exception":["Faraday::ConnectionFailed","Connection refused - connect(2) for \"localhost\" port 9200"]}
+Completed 500 Internal Server Error in 114ms (Searchkick: 2.8ms | ActiveRecord: 11.3ms)
+
+Faraday::ConnectionFailed (Connection refused - connect(2) for "localhost" port 9200):
+  app/controllers/users_controller.rb:9:in `sign_up'
+
+
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.7ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (20.7ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (42.5ms)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2017-03-10 11:31:14 -0400
+Processing by UsersController#profile as HTML
+  Parameters: {"name"=>"sign_up"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 LIMIT 1[0m  [["name", "sign_up"]]
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.4ms)
+
+NoMethodError (undefined method `posts' for nil:NilClass):
+  app/controllers/users_controller.rb:35:in `profile'
+
+
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (21.8ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (44.3ms)
+
+
+Started POST "/sign_up" for 127.0.0.1 at 2017-03-10 11:31:20 -0400
+Processing by UsersController#sign_up as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BKuyJ1M9fQXiG0tyx1xQU0r5AJKTUQ6wu+I56w//QKxH+2uSxu6TZ3eHzAR87OSOJX1owRm7lmcxDbAx3yGXdw==", "user"=>{"name"=>"Brandon", "email"=>"Quiroga", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Registrarse"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Brandon"], ["email", "Quiroga"], ["password_digest", "$2a$10$vlEbiOlfnjRNcpK/F8kFguxtWJtd9w4hIAv79lQw/ufa.Ir4fekfG"], ["created_at", "2017-03-10 15:31:21.066588"], ["updated_at", "2017-03-10 15:31:21.066588"]]
+  [1m[35m (11.2ms)[0m  COMMIT
+  [1m[33mUser Store (1113.2ms)[0m  {"id":4}
+Redirected to http://localhost:3000/Brandon
+Completed 302 Found in 1230ms (Searchkick: 1113.2ms | ActiveRecord: 11.7ms)
+
+
+Started GET "/Brandon" for 127.0.0.1 at 2017-03-10 11:31:22 -0400
+Processing by UsersController#profile as HTML
+  Parameters: {"name"=>"Brandon"}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 LIMIT 1[0m  [["name", "Brandon"]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "posts" WHERE "posts"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."fan_id" WHERE "relationships"."idol_id" = $1  [["idol_id", 1]]
+  [1m[36m (1.4ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."idol_id" WHERE "relationships"."fan_id" = $1[0m  [["fan_id", 1]]
+  [1m[35mResume Load (0.4ms)[0m  SELECT  "resumes".* FROM "resumes" WHERE "resumes"."user_id" = $1 LIMIT 1  [["user_id", 4]]
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = $1  ORDER BY "posts"."created_at" DESC[0m  [["user_id", 1]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (1.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered users/profile.html.erb within layouts/application (107.3ms)
+  [1m[35mJobVacancy Load (0.6ms)[0m  SELECT "job_vacancies".* FROM "job_vacancies"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "applicants" WHERE "applicants"."applicant_id" = $1[0m  [["applicant_id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "job_vacancies".* FROM "job_vacancies"
+  [1m[36mJobVacancy Load (0.3ms)[0m  [1mSELECT "job_vacancies".* FROM "job_vacancies" WHERE "job_vacancies"."user_id" = $1[0m  [["user_id", 4]]
+  [1m[35mMailboxer::Conversation Load (1.1ms)[0m  SELECT DISTINCT "mailboxer_conversations".* FROM "mailboxer_conversations" INNER JOIN "mailboxer_notifications" ON "mailboxer_notifications"."conversation_id" = "mailboxer_conversations"."id" AND "mailboxer_notifications"."type" IN ('Mailboxer::Message') INNER JOIN "mailboxer_receipts" ON "mailboxer_receipts"."notification_id" = "mailboxer_notifications"."id" WHERE "mailboxer_notifications"."type" = 'Mailboxer::Message' AND "mailboxer_receipts"."receiver_id" = $1 AND "mailboxer_receipts"."receiver_type" = $2 AND "mailboxer_receipts"."mailbox_type" = $3 AND "mailboxer_receipts"."trashed" = $4 AND "mailboxer_receipts"."deleted" = $5  ORDER BY mailboxer_conversations.updated_at DESC  [["receiver_id", 4], ["receiver_type", "User"], ["mailbox_type", "inbox"], ["trashed", "f"], ["deleted", "f"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "mailboxer_conversations".* FROM "mailboxer_conversations" INNER JOIN "mailboxer_notifications" ON "mailboxer_notifications"."conversation_id" = "mailboxer_conversations"."id" AND "mailboxer_notifications"."type" IN ('Mailboxer::Message') INNER JOIN "mailboxer_receipts" ON "mailboxer_receipts"."notification_id" = "mailboxer_notifications"."id" WHERE "mailboxer_notifications"."type" = 'Mailboxer::Message' AND "mailboxer_receipts"."receiver_id" = $1 AND "mailboxer_receipts"."receiver_type" = $2 AND "mailboxer_receipts"."mailbox_type" = $3 AND "mailboxer_receipts"."trashed" = $4 AND "mailboxer_receipts"."deleted" = $5  ORDER BY mailboxer_conversations.updated_at DESC[0m  [["receiver_id", 4], ["receiver_type", "User"], ["mailbox_type", "inbox"], ["trashed", false], ["deleted", false]]
+  Rendered layouts/_top_navbar.html.erb (80.9ms)
+Completed 200 OK in 590ms (Views: 517.1ms | ActiveRecord: 17.7ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-295dfcc82121df34b90aab5905368da5.woff2" for 127.0.0.1 at 2017-03-10 11:31:23 -0400
+
+
+Started GET "/job_vacancies" for 127.0.0.1 at 2017-03-10 11:31:32 -0400
+Processing by JobVacanciesController#index as HTML
+  [1m[35mJobVacancy Load (0.4ms)[0m  SELECT "job_vacancies".* FROM "job_vacancies"
+  Rendered job_vacancies/index.html.erb within layouts/application (2.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "job_vacancies".* FROM "job_vacancies"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "applicants" WHERE "applicants"."applicant_id" = $1[0m  [["applicant_id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "job_vacancies".* FROM "job_vacancies"
+  [1m[36mJobVacancy Load (0.2ms)[0m  [1mSELECT "job_vacancies".* FROM "job_vacancies" WHERE "job_vacancies"."user_id" = $1[0m  [["user_id", 4]]
+  [1m[35mMailboxer::Conversation Load (0.7ms)[0m  SELECT DISTINCT "mailboxer_conversations".* FROM "mailboxer_conversations" INNER JOIN "mailboxer_notifications" ON "mailboxer_notifications"."conversation_id" = "mailboxer_conversations"."id" AND "mailboxer_notifications"."type" IN ('Mailboxer::Message') INNER JOIN "mailboxer_receipts" ON "mailboxer_receipts"."notification_id" = "mailboxer_notifications"."id" WHERE "mailboxer_notifications"."type" = 'Mailboxer::Message' AND "mailboxer_receipts"."receiver_id" = $1 AND "mailboxer_receipts"."receiver_type" = $2 AND "mailboxer_receipts"."mailbox_type" = $3 AND "mailboxer_receipts"."trashed" = $4 AND "mailboxer_receipts"."deleted" = $5  ORDER BY mailboxer_conversations.updated_at DESC  [["receiver_id", 4], ["receiver_type", "User"], ["mailbox_type", "inbox"], ["trashed", "f"], ["deleted", "f"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "mailboxer_conversations".* FROM "mailboxer_conversations" INNER JOIN "mailboxer_notifications" ON "mailboxer_notifications"."conversation_id" = "mailboxer_conversations"."id" AND "mailboxer_notifications"."type" IN ('Mailboxer::Message') INNER JOIN "mailboxer_receipts" ON "mailboxer_receipts"."notification_id" = "mailboxer_notifications"."id" WHERE "mailboxer_notifications"."type" = 'Mailboxer::Message' AND "mailboxer_receipts"."receiver_id" = $1 AND "mailboxer_receipts"."receiver_type" = $2 AND "mailboxer_receipts"."mailbox_type" = $3 AND "mailboxer_receipts"."trashed" = $4 AND "mailboxer_receipts"."deleted" = $5  ORDER BY mailboxer_conversations.updated_at DESC[0m  [["receiver_id", 4], ["receiver_type", "User"], ["mailbox_type", "inbox"], ["trashed", false], ["deleted", false]]
+  Rendered layouts/_top_navbar.html.erb (13.2ms)
+Completed 200 OK in 312ms (Views: 309.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/resumes/new" for 127.0.0.1 at 2017-03-10 11:31:35 -0400
+Processing by ResumesController#new as HTML
+  Rendered resumes/new.html.erb within layouts/application (75.4ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mJobVacancy Load (0.4ms)[0m  [1mSELECT "job_vacancies".* FROM "job_vacancies"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "applicants" WHERE "applicants"."applicant_id" = $1  [["applicant_id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "job_vacancies".* FROM "job_vacancies"[0m
+  [1m[35mJobVacancy Load (1.7ms)[0m  SELECT "job_vacancies".* FROM "job_vacancies" WHERE "job_vacancies"."user_id" = $1  [["user_id", 4]]
+  [1m[36mMailboxer::Conversation Load (0.9ms)[0m  [1mSELECT DISTINCT "mailboxer_conversations".* FROM "mailboxer_conversations" INNER JOIN "mailboxer_notifications" ON "mailboxer_notifications"."conversation_id" = "mailboxer_conversations"."id" AND "mailboxer_notifications"."type" IN ('Mailboxer::Message') INNER JOIN "mailboxer_receipts" ON "mailboxer_receipts"."notification_id" = "mailboxer_notifications"."id" WHERE "mailboxer_notifications"."type" = 'Mailboxer::Message' AND "mailboxer_receipts"."receiver_id" = $1 AND "mailboxer_receipts"."receiver_type" = $2 AND "mailboxer_receipts"."mailbox_type" = $3 AND "mailboxer_receipts"."trashed" = $4 AND "mailboxer_receipts"."deleted" = $5  ORDER BY mailboxer_conversations.updated_at DESC[0m  [["receiver_id", 4], ["receiver_type", "User"], ["mailbox_type", "inbox"], ["trashed", "f"], ["deleted", "f"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "mailboxer_conversations".* FROM "mailboxer_conversations" INNER JOIN "mailboxer_notifications" ON "mailboxer_notifications"."conversation_id" = "mailboxer_conversations"."id" AND "mailboxer_notifications"."type" IN ('Mailboxer::Message') INNER JOIN "mailboxer_receipts" ON "mailboxer_receipts"."notification_id" = "mailboxer_notifications"."id" WHERE "mailboxer_notifications"."type" = 'Mailboxer::Message' AND "mailboxer_receipts"."receiver_id" = $1 AND "mailboxer_receipts"."receiver_type" = $2 AND "mailboxer_receipts"."mailbox_type" = $3 AND "mailboxer_receipts"."trashed" = $4 AND "mailboxer_receipts"."deleted" = $5  ORDER BY mailboxer_conversations.updated_at DESC  [["receiver_id", 4], ["receiver_type", "User"], ["mailbox_type", "inbox"], ["trashed", false], ["deleted", false]]
+  Rendered layouts/_top_navbar.html.erb (13.4ms)
+Completed 200 OK in 462ms (Views: 371.0ms | ActiveRecord: 13.4ms)
+
+
+Started GET "/resumes/new" for 127.0.0.1 at 2017-03-10 11:31:37 -0400
+Processing by ResumesController#new as HTML
+  Rendered resumes/new.html.erb within layouts/application (10.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mJobVacancy Load (0.4ms)[0m  SELECT "job_vacancies".* FROM "job_vacancies"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "applicants" WHERE "applicants"."applicant_id" = $1[0m  [["applicant_id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "job_vacancies".* FROM "job_vacancies"
+  [1m[36mJobVacancy Load (0.3ms)[0m  [1mSELECT "job_vacancies".* FROM "job_vacancies" WHERE "job_vacancies"."user_id" = $1[0m  [["user_id", 4]]
+  [1m[35mMailboxer::Conversation Load (0.8ms)[0m  SELECT DISTINCT "mailboxer_conversations".* FROM "mailboxer_conversations" INNER JOIN "mailboxer_notifications" ON "mailboxer_notifications"."conversation_id" = "mailboxer_conversations"."id" AND "mailboxer_notifications"."type" IN ('Mailboxer::Message') INNER JOIN "mailboxer_receipts" ON "mailboxer_receipts"."notification_id" = "mailboxer_notifications"."id" WHERE "mailboxer_notifications"."type" = 'Mailboxer::Message' AND "mailboxer_receipts"."receiver_id" = $1 AND "mailboxer_receipts"."receiver_type" = $2 AND "mailboxer_receipts"."mailbox_type" = $3 AND "mailboxer_receipts"."trashed" = $4 AND "mailboxer_receipts"."deleted" = $5  ORDER BY mailboxer_conversations.updated_at DESC  [["receiver_id", 4], ["receiver_type", "User"], ["mailbox_type", "inbox"], ["trashed", "f"], ["deleted", "f"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "mailboxer_conversations".* FROM "mailboxer_conversations" INNER JOIN "mailboxer_notifications" ON "mailboxer_notifications"."conversation_id" = "mailboxer_conversations"."id" AND "mailboxer_notifications"."type" IN ('Mailboxer::Message') INNER JOIN "mailboxer_receipts" ON "mailboxer_receipts"."notification_id" = "mailboxer_notifications"."id" WHERE "mailboxer_notifications"."type" = 'Mailboxer::Message' AND "mailboxer_receipts"."receiver_id" = $1 AND "mailboxer_receipts"."receiver_type" = $2 AND "mailboxer_receipts"."mailbox_type" = $3 AND "mailboxer_receipts"."trashed" = $4 AND "mailboxer_receipts"."deleted" = $5  ORDER BY mailboxer_conversations.updated_at DESC[0m  [["receiver_id", 4], ["receiver_type", "User"], ["mailbox_type", "inbox"], ["trashed", false], ["deleted", false]]
+  Rendered layouts/_top_navbar.html.erb (10.0ms)
+Completed 200 OK in 297ms (Views: 286.7ms | ActiveRecord: 2.2ms)
