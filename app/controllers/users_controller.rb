@@ -37,6 +37,7 @@ class UsersController < ApplicationController
 
   def upload_photo
     # render(:text => params)
+    puts "aqui bota error"
     if current_user.update(user_params)
       redirect_to profile_path(current_user.name)
     end
