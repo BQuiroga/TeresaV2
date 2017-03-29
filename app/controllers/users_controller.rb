@@ -42,6 +42,8 @@ class UsersController < ApplicationController
       redirect_to profile_path(current_user.name)
     end
   end
+  def login
+  end
 
   def upload_cover
     if current_user.update(user_params)

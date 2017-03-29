@@ -9767,3 +9767,710 @@ Completed 200 OK in 321ms (Views: 314.2ms | ActiveRecord: 4.7ms)
 
 
 Started GET "/assets/bootstrap/glyphicons-halflings-regular-295dfcc82121df34b90aab5905368da5.woff2" for 127.0.0.1 at 2017-03-15 18:02:31 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+Processing by UsersController#home as HTML
+  Rendered users/home.html.erb within layouts/application (1.2ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 279ms (Views: 278.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/applicants-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/mCustomScrollbar-b8f907de94cf33ffcba13973ff190418.css?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/posts-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/messages-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/conversations-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/job_vacancies-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/publications-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/custom-01e955526fa63f912a22d9549cfb2bed.css?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/relationships-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/resumes-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/searches-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/users-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/application-3aa568c4ba0fcbffa37f45256f95ca0f.css?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/jquery-fbd3c47db8f7f0030f377a105ed8fc51.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/jquery_ujs-d2cf0f95fbe6472403171bca3c6ea320.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/jquery.turbolinks-b3f41da933e7be7a4a4a2234750e25d6.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/bootstrap-ac843c1b314aed5b6de0dbdb51fb71fd.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/lib/abstract-chosen-cebdd952962a5b26fafc957a19c1ed8b.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/lib/select-parser-5947b1b37cc43a76175bf24dd98c2d30.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/chosen.jquery-63805af9dffabd503fde60fb7af95b26.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/chosen-jquery-a9ee3be772d621557c08693522928162.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/messages-9f9f8f55a9c4e1b4fb461eea8360ff83.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/turbolinks-4031cb0a0613adc8fac596d20e01b074.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/typeahead.bundle-5002f503969df678b69cccf34ce4313d.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/mCustomScrollbar.concat.min-046caf11fa81eb9e8acc178788787ea7.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/mCustomScrollbar-35b2adf8986beb2157e24a9f9fcbbc3a.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/applicants-0bc27e2168727cafa1252f703137df60.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/conversations-0bc27e2168727cafa1252f703137df60.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/job_vacancies-0bc27e2168727cafa1252f703137df60.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/posts-0bc27e2168727cafa1252f703137df60.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/publications-0bc27e2168727cafa1252f703137df60.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/relationships-0bc27e2168727cafa1252f703137df60.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/resumes-0bc27e2168727cafa1252f703137df60.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/searches-0bc27e2168727cafa1252f703137df60.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/users-0bc27e2168727cafa1252f703137df60.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/application-07f6e5435b5a205bc11af686330e4a85.js?body=1" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+
+
+Started GET "/assets/ciudad-87344a7dbecec1626cc2232c4bc0a6d0.jpg" for 127.0.0.1 at 2017-03-15 18:04:22 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (19.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddDeviseToUsers (20170329203949)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (45.6ms)[0m  [1mALTER TABLE "users" ADD "email" character varying DEFAULT '' NOT NULL[0m
+PG::DuplicateColumn: ERROR:  column "email" of relation "users" already exists
+: ALTER TABLE "users" ADD "email" character varying DEFAULT '' NOT NULL
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddDeviseToUsers (20170329203949)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.8ms)[0m  [1mALTER TABLE "users" ADD "email" character varying DEFAULT '' NOT NULL[0m
+PG::DuplicateColumn: ERROR:  column "email" of relation "users" already exists
+: ALTER TABLE "users" ADD "email" character varying DEFAULT '' NOT NULL
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (20.3ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (134.5ms)[0m  DROP TABLE "applicants" CASCADE
+  [1m[36m (184.5ms)[0m  [1mCREATE TABLE "applicants" ("id" serial primary key, "job_vacancy_id" integer, "applicant_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (39.2ms)[0m  CREATE  INDEX  "index_applicants_on_job_vacancy_id" ON "applicants" USING btree ("job_vacancy_id")
+  [1m[36m (20.0ms)[0m  [1mDROP TABLE "educations" CASCADE[0m
+  [1m[35m (57.5ms)[0m  CREATE TABLE "educations" ("id" serial primary key, "start_date" date, "end_date" date, "degree_name" character varying, "school_name" character varying, "education_description" text, "resume_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (31.2ms)[0m  [1mCREATE  INDEX  "index_educations_on_resume_id" ON "educations" USING btree ("resume_id")[0m
+  [1m[35m (7.9ms)[0m  DROP TABLE "emails" CASCADE
+  [1m[36m (66.0ms)[0m  [1mCREATE TABLE "emails" ("id" serial primary key, "email" character varying, "resume_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (47.6ms)[0m  CREATE  INDEX  "index_emails_on_resume_id" ON "emails" USING btree ("resume_id")
+  [1m[36m (7.9ms)[0m  [1mDROP TABLE "experiences" CASCADE[0m
+  [1m[35m (65.7ms)[0m  CREATE TABLE "experiences" ("id" serial primary key, "start_date" date, "end_date" date, "job_title" character varying, "company_name" character varying, "job_description" text, "resume_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (39.4ms)[0m  [1mCREATE  INDEX  "index_experiences_on_resume_id" ON "experiences" USING btree ("resume_id")[0m
+  [1m[35m (7.5ms)[0m  DROP TABLE "job_vacancies" CASCADE
+  [1m[36m (57.8ms)[0m  [1mCREATE TABLE "job_vacancies" ("id" serial primary key, "user_id" integer, "state" boolean, "education" character varying, "years_of_experience" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (31.2ms)[0m  CREATE  INDEX  "index_job_vacancies_on_user_id" ON "job_vacancies" USING btree ("user_id")
+  [1m[36m (7.7ms)[0m  [1mDROP TABLE "mailboxer_conversation_opt_outs" CASCADE[0m
+  [1m[35m (65.9ms)[0m  CREATE TABLE "mailboxer_conversation_opt_outs" ("id" serial primary key, "unsubscriber_id" integer, "unsubscriber_type" character varying, "conversation_id" integer) 
+  [1m[36m (39.5ms)[0m  [1mCREATE  INDEX  "index_mailboxer_conversation_opt_outs_on_conversation_id" ON "mailboxer_conversation_opt_outs" USING btree ("conversation_id")[0m
+  [1m[35m (39.5ms)[0m  CREATE  INDEX  "index_mailboxer_conversation_opt_outs_on_unsubscriber_id_type" ON "mailboxer_conversation_opt_outs" USING btree ("unsubscriber_id", "unsubscriber_type")
+  [1m[36m (7.8ms)[0m  [1mDROP TABLE "mailboxer_conversations" CASCADE[0m
+  [1m[35m (65.2ms)[0m  CREATE TABLE "mailboxer_conversations" ("id" serial primary key, "subject" character varying DEFAULT '', "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (7.8ms)[0m  [1mDROP TABLE "mailboxer_notifications" CASCADE[0m
+  [1m[35m (70.4ms)[0m  CREATE TABLE "mailboxer_notifications" ("id" serial primary key, "type" character varying, "body" text, "subject" character varying DEFAULT '', "sender_id" integer, "sender_type" character varying, "conversation_id" integer, "draft" boolean DEFAULT 'f', "notification_code" character varying, "notified_object_id" integer, "notified_object_type" character varying, "attachment" character varying, "updated_at" timestamp NOT NULL, "created_at" timestamp NOT NULL, "global" boolean DEFAULT 'f', "expires" timestamp) 
+  [1m[36m (31.1ms)[0m  [1mCREATE  INDEX  "index_mailboxer_notifications_on_conversation_id" ON "mailboxer_notifications" USING btree ("conversation_id")[0m
+  [1m[35m (31.2ms)[0m  CREATE  INDEX  "index_mailboxer_notifications_on_notified_object_id_and_type" ON "mailboxer_notifications" USING btree ("notified_object_id", "notified_object_type")
+  [1m[36m (31.2ms)[0m  [1mCREATE  INDEX  "index_mailboxer_notifications_on_sender_id_and_sender_type" ON "mailboxer_notifications" USING btree ("sender_id", "sender_type")[0m
+  [1m[35m (39.4ms)[0m  CREATE  INDEX  "index_mailboxer_notifications_on_type" ON "mailboxer_notifications" USING btree ("type")
+  [1m[36m (8.0ms)[0m  [1mDROP TABLE "mailboxer_receipts" CASCADE[0m
+  [1m[35m (64.8ms)[0m  CREATE TABLE "mailboxer_receipts" ("id" serial primary key, "receiver_id" integer, "receiver_type" character varying, "notification_id" integer NOT NULL, "is_read" boolean DEFAULT 'f', "trashed" boolean DEFAULT 'f', "deleted" boolean DEFAULT 'f', "mailbox_type" character varying(25), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (39.5ms)[0m  [1mCREATE  INDEX  "index_mailboxer_receipts_on_notification_id" ON "mailboxer_receipts" USING btree ("notification_id")[0m
+  [1m[35m (39.6ms)[0m  CREATE  INDEX  "index_mailboxer_receipts_on_receiver_id_and_receiver_type" ON "mailboxer_receipts" USING btree ("receiver_id", "receiver_type")
+  [1m[36m (7.9ms)[0m  [1mDROP TABLE "phones" CASCADE[0m
+  [1m[35m (40.7ms)[0m  CREATE TABLE "phones" ("id" serial primary key, "number" integer, "resume_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (39.5ms)[0m  [1mCREATE  INDEX  "index_phones_on_resume_id" ON "phones" USING btree ("resume_id")[0m
+  [1m[35m (24.9ms)[0m  DROP TABLE "photos" CASCADE
+  [1m[36m (82.4ms)[0m  [1mCREATE TABLE "photos" ("id" serial primary key, "resume_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "photo_file_name" character varying, "photo_content_type" character varying, "photo_file_size" integer, "photo_updated_at" timestamp) [0m
+  [1m[35m (39.3ms)[0m  CREATE  INDEX  "index_photos_on_resume_id" ON "photos" USING btree ("resume_id")
+  [1m[36m (7.9ms)[0m  [1mDROP TABLE "pictures" CASCADE[0m
+  [1m[35m (65.9ms)[0m  CREATE TABLE "pictures" ("id" serial primary key, "post_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "image_file_name" character varying, "image_content_type" character varying, "image_file_size" integer, "image_updated_at" timestamp) 
+  [1m[36m (39.6ms)[0m  [1mCREATE  INDEX  "index_pictures_on_post_id" ON "pictures" USING btree ("post_id")[0m
+  [1m[35m (8.2ms)[0m  DROP TABLE "posts" CASCADE
+  [1m[36m (66.0ms)[0m  [1mCREATE TABLE "posts" ("id" serial primary key, "body" text, "user_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (39.5ms)[0m  CREATE  INDEX  "index_posts_on_user_id" ON "posts" USING btree ("user_id")
+  [1m[36m (7.4ms)[0m  [1mDROP TABLE "relationships" CASCADE[0m
+  [1m[35m (41.0ms)[0m  CREATE TABLE "relationships" ("id" serial primary key, "idol_id" integer, "fan_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (39.6ms)[0m  [1mCREATE  INDEX  "index_relationships_on_fan_id" ON "relationships" USING btree ("fan_id")[0m
+  [1m[35m (39.5ms)[0m  CREATE UNIQUE INDEX  "index_relationships_on_idol_id_and_fan_id" ON "relationships" USING btree ("idol_id", "fan_id")
+  [1m[36m (39.6ms)[0m  [1mCREATE  INDEX  "index_relationships_on_idol_id" ON "relationships" USING btree ("idol_id")[0m
+  [1m[35m (7.7ms)[0m  DROP TABLE "resumes" CASCADE
+  [1m[36m (74.2ms)[0m  [1mCREATE TABLE "resumes" ("id" serial primary key, "name" character varying, "user_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (33.0ms)[0m  CREATE  INDEX  "index_resumes_on_user_id" ON "resumes" USING btree ("user_id")
+  [1m[36m (7.5ms)[0m  [1mDROP TABLE "sites" CASCADE[0m
+  [1m[35m (66.2ms)[0m  CREATE TABLE "sites" ("id" serial primary key, "name" character varying, "resume_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (39.4ms)[0m  [1mCREATE  INDEX  "index_sites_on_resume_id" ON "sites" USING btree ("resume_id")[0m
+  [1m[35m (8.0ms)[0m  DROP TABLE "users" CASCADE
+  [1m[36m (65.9ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "email" character varying, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "password_digest" character varying, "avatar_file_name" character varying, "avatar_content_type" character varying, "avatar_file_size" integer, "avatar_updated_at" timestamp, "cover_file_name" character varying, "cover_content_type" character varying, "cover_file_size" integer, "cover_updated_at" timestamp) [0m
+  [1m[35m (45.6ms)[0m  ALTER TABLE "applicants" ADD CONSTRAINT "fk_rails_fb896d1f18"
+FOREIGN KEY ("job_vacancy_id")
+  REFERENCES "job_vacancies" ("id")
+
+  [1m[36m (7.8ms)[0m  [1mALTER TABLE "educations" ADD CONSTRAINT "fk_rails_d3d2f6ce11"
+FOREIGN KEY ("resume_id")
+  REFERENCES "resumes" ("id")
+[0m
+  [1m[35m (30.5ms)[0m  ALTER TABLE "emails" ADD CONSTRAINT "fk_rails_50382f9963"
+FOREIGN KEY ("resume_id")
+  REFERENCES "resumes" ("id")
+
+  [1m[36m (15.6ms)[0m  [1mALTER TABLE "experiences" ADD CONSTRAINT "fk_rails_b062765ade"
+FOREIGN KEY ("resume_id")
+  REFERENCES "resumes" ("id")
+[0m
+  [1m[35m (7.7ms)[0m  ALTER TABLE "job_vacancies" ADD CONSTRAINT "fk_rails_f231adf1d9"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+
+  [1m[36m (7.9ms)[0m  [1mALTER TABLE "mailboxer_conversation_opt_outs" ADD CONSTRAINT "mb_opt_outs_on_conversations_id"
+FOREIGN KEY ("conversation_id")
+  REFERENCES "mailboxer_conversations" ("id")
+[0m
+  [1m[35m (8.2ms)[0m  ALTER TABLE "mailboxer_notifications" ADD CONSTRAINT "notifications_on_conversation_id"
+FOREIGN KEY ("conversation_id")
+  REFERENCES "mailboxer_conversations" ("id")
+
+  [1m[36m (7.8ms)[0m  [1mALTER TABLE "mailboxer_receipts" ADD CONSTRAINT "receipts_on_notification_id"
+FOREIGN KEY ("notification_id")
+  REFERENCES "mailboxer_notifications" ("id")
+[0m
+  [1m[35m (7.8ms)[0m  ALTER TABLE "phones" ADD CONSTRAINT "fk_rails_3d7e228bb5"
+FOREIGN KEY ("resume_id")
+  REFERENCES "resumes" ("id")
+
+  [1m[36m (8.0ms)[0m  [1mALTER TABLE "photos" ADD CONSTRAINT "fk_rails_25aff8d3f1"
+FOREIGN KEY ("resume_id")
+  REFERENCES "resumes" ("id")
+[0m
+  [1m[35m (8.0ms)[0m  ALTER TABLE "pictures" ADD CONSTRAINT "fk_rails_13793e98fd"
+FOREIGN KEY ("post_id")
+  REFERENCES "posts" ("id")
+
+  [1m[36m (7.7ms)[0m  [1mALTER TABLE "posts" ADD CONSTRAINT "fk_rails_5b5ddfd518"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (7.9ms)[0m  ALTER TABLE "resumes" ADD CONSTRAINT "fk_rails_867611551d"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+
+  [1m[36m (8.1ms)[0m  [1mALTER TABLE "sites" ADD CONSTRAINT "fk_rails_db1fbcd4fd"
+FOREIGN KEY ("resume_id")
+  REFERENCES "resumes" ("id")
+[0m
+  [1m[35m (0.4ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddDeviseToUsers (20170329203949)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.8ms)[0m  [1mALTER TABLE "users" ADD "email" character varying DEFAULT '' NOT NULL[0m
+PG::DuplicateColumn: ERROR:  column "email" of relation "users" already exists
+: ALTER TABLE "users" ADD "email" character varying DEFAULT '' NOT NULL
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddDeviseToUsers (20170329203949)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (90.4ms)[0m  [1mALTER TABLE "users" ADD "encrypted_password" character varying DEFAULT '' NOT NULL[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "users" ADD "reset_password_token" character varying
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "reset_password_sent_at" timestamp[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "remember_created_at" timestamp
+  [1m[36m (55.2ms)[0m  [1mALTER TABLE "users" ADD "sign_in_count" integer DEFAULT 0 NOT NULL[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "users" ADD "current_sign_in_at" timestamp
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" ADD "last_sign_in_at" timestamp[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "current_sign_in_ip" inet
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "last_sign_in_ip" inet[0m
+  [1m[35m (21.2ms)[0m  CREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")
+  [1m[36m (23.5ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20170329203949"]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (3.5ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'applicants'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (3.3ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'educations'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (3.2ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'emails'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (3.2ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'experiences'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (3.2ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'job_vacancies'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (3.2ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'mailboxer_conversation_opt_outs'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (3.2ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'mailboxer_conversations'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (3.2ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'mailboxer_notifications'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (3.2ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'mailboxer_receipts'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (3.2ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'phones'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (3.2ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'photos'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (3.2ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'pictures'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (3.2ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'posts'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (3.2ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'relationships'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (3.2ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'resumes'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (3.2ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'sites'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (3.2ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-29 16:46:44 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#home as HTML
+  Rendered users/home.html.erb within layouts/application (32.1ms)
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 986ms (Views: 963.6ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2017-03-29 16:47:44 -0400
+Processing by UsersController#sign_in as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CYUNtR15/QjJ3G8luMONntFkdvM1j0xcLstfgR86rmhRfZ/w+hfhk2Gpc+SFhFPLqhNODMyH39q541QFLS1zVg==", "sesion"=>{"email"=>"b1.2@nomames.com", "password"=>"[FILTERED]"}, "commit"=>"Iniciar sesion"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "b1.2@nomames.com"]]
+  Rendered users/home.html.erb within layouts/application (1.2ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 300ms (Views: 273.9ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2017-03-29 16:48:01 -0400
+Processing by UsersController#sign_in as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/NDSYKra1STYhdzrjHo+m30Yb/1VxbDhKZ1KlvVH5cWkKEAlTbTJv3DwwCqxPeDOBm9XAqzNI2e+tUESx1A4+w==", "sesion"=>{"email"=>"b1.2@nomames.com", "password"=>"[FILTERED]"}, "commit"=>"Iniciar sesion"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "b1.2@nomames.com"]]
+  Rendered users/home.html.erb within layouts/application (1.2ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 281ms (Views: 278.6ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/sign_up" for 127.0.0.1 at 2017-03-29 16:48:04 -0400
+Processing by UsersController#sign_up as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oaHJAahmUPedO3Hg+j7i5auzqaEJoV6hF9mi9ZQrOqT5WVtETwhMbDVObSHHeTyw0MSRXvCpzSeA8alxpjznmg==", "user"=>{"name"=>"", "email"=>"b1.2@nomames.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Registrarse"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'b1.2@nomames.com' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 753ms (ActiveRecord: 3.1ms)
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/users_controller.rb:9:in `sign_up'
+
+
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.8ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (51.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (24.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (60.6ms)
+
+
+Started POST "/sign_up" for 127.0.0.1 at 2017-03-29 16:48:19 -0400
+Processing by UsersController#sign_up as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oaHJAahmUPedO3Hg+j7i5auzqaEJoV6hF9mi9ZQrOqT5WVtETwhMbDVObSHHeTyw0MSRXvCpzSeA8alxpjznmg==", "user"=>{"name"=>"", "email"=>"b1.2@nomames.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Registrarse"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'b1.2@nomames.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 98ms (ActiveRecord: 0.8ms)
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/users_controller.rb:9:in `sign_up'
+
+
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.0ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (33.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (21.0ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (43.8ms)
+
+
+Started POST "/sign_up" for 127.0.0.1 at 2017-03-29 16:49:02 -0400
+Processing by UsersController#sign_up as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oaHJAahmUPedO3Hg+j7i5auzqaEJoV6hF9mi9ZQrOqT5WVtETwhMbDVObSHHeTyw0MSRXvCpzSeA8alxpjznmg==", "user"=>{"name"=>"", "email"=>"b1.3@nomames.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Registrarse"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'b1.3@nomames.com' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.0ms)
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/users_controller.rb:9:in `sign_up'
+
+
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (32.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (20.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (42.8ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2017-03-29 16:49:35 -0400
+Processing by UsersController#profile as HTML
+  Parameters: {"name"=>"register"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."name" = $1 LIMIT 1  [["name", "register"]]
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.3ms)
+
+NoMethodError (undefined method `posts' for nil:NilClass):
+  app/controllers/users_controller.rb:35:in `profile'
+
+
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.9ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (20.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (41.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-29 16:49:46 -0400
+Processing by UsersController#home as HTML
+  Rendered users/home.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 291ms (Views: 289.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2017-03-29 16:51:04 -0400
+Processing by UsersController#profile as HTML
+  Parameters: {"name"=>"login"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."name" = $1 LIMIT 1  [["name", "login"]]
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.2ms)
+
+NoMethodError (undefined method `posts' for nil:NilClass):
+  app/controllers/users_controller.rb:35:in `profile'
+
+
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (20.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (42.5ms)
+
+
+Started GET "/users/login" for 127.0.0.1 at 2017-03-29 16:51:56 -0400
+
+ActionController::RoutingError (No route matches [GET] "/users/login"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/redes/.rbenv/versions/2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.1ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.6ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (73.8ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (20.7ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (42.3ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-03-29 16:52:06 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/devise-4.2.1/app/views/devise/shared/_links.html.erb (1.5ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/devise-4.2.1/app/views/devise/sessions/new.html.erb within layouts/application (26.2ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 346ms (Views: 321.4ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-03-29 16:52:11 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lMDbbOya990nAtE1BoJ53MyWajN4tteGhtAHBTUMjCfMOEkpC/TrRo93zfQ7xaeJt+FSzIG+RAAR+AyBBxtRGQ==", "user"=>{"email"=>"b1.2@nomames.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "b1.2@nomames.com"]]
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.5ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lMDbbOya990nAtE1BoJ53MyWajN4tteGhtAHBTUMjCfMOEkpC/TrRo93zfQ7xaeJt+FSzIG+RAAR+AyBBxtRGQ==", "user"=>{"email"=>"b1.2@nomames.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/devise-4.2.1/app/views/devise/shared/_links.html.erb (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/devise-4.2.1/app/views/devise/sessions/new.html.erb within layouts/application (3.6ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 395ms (Views: 298.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-03-29 16:52:14 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/devise-4.2.1/app/views/devise/shared/_links.html.erb (0.4ms)
+  Rendered /home/redes/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/devise-4.2.1/app/views/devise/registrations/new.html.erb within layouts/application (4.3ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 299ms (Views: 297.2ms | ActiveRecord: 0.5ms)

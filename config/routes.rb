@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  devise_for :users
   scope 'private' do
     resources :messages, only: [:index, :new, :create], :as => 'private_messages'
   end
